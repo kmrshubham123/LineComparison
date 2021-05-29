@@ -9,7 +9,10 @@ namespace LineComparison
             Console.WriteLine("#### Welcome to the Line Comparison Problem ####");
 
             LengthLine lengthLine = new LengthLine(); 
-            lengthLine.FindLenght(2, 20, 2, 20);
+            lengthLine.FindLenght(1, 9, 1, 9);
+            ///Equality Check of Two Line
+            LineEquality equality = new LineEquality();
+            equality.LineEquals();
         }
     }
 }
