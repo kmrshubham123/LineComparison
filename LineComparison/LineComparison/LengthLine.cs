@@ -8,7 +8,7 @@ namespace LineComparison
     {
         public abstract double FindLength(int x1, int x2, int y1, int y2);
     }
-    public class CalculateLenght : LengthLine
+    public class CalculateLength : LengthLine
     {
         public override double FindLength(int x1, int x2, int y1, int y2)
         {

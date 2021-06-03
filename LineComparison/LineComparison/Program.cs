@@ -7,7 +7,7 @@ namespace LineComparison
         static void Main(string[] args)
         {
             Console.WriteLine("#### Welcome to the Line Comparison Problem ####");
-            CalculateLenght calculateLenght = new CalculateLenght();
+            CalculateLength calculateLenght = new CalculateLength();
             double LineOne= calculateLenght.FindLength(2,5,10,20);
             double LineTwo = calculateLenght.FindLength(5, 10, 12, 18);
 
