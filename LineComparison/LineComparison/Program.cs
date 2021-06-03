@@ -7,9 +7,9 @@ namespace LineComparison
         static void Main(string[] args)
         {
             Console.WriteLine("#### Welcome to the Line Comparison Problem ####");
-            LengthLine lengthLine = new LengthLine();
-            double LineOne = lengthLine.FindLenght(3, 8, 9, 10);
-            double LineTwo = lengthLine.FindLenght(3, 15, 15, 10);
+            CalculateLenght calculateLenght = new CalculateLenght();
+            double LineOne= calculateLenght.FindLength(2,5,10,20);
+            double LineTwo = calculateLenght.FindLength(5, 10, 12, 18);
 
             //Equals
             Boolean Check_equality = LineOne.Equals(LineTwo);
@@ -34,10 +34,6 @@ namespace LineComparison
             {
                 Console.WriteLine("Lines one is lesser than Line Two ");
             }
-
-
-          
-
 
 
         }
