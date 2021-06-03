@@ -30,7 +30,7 @@ namespace LineComparison
             {
                 Console.WriteLine("Line one is greater than Line Two");
             }
-            else 
+            else
             {
                 Console.WriteLine("Lines one is lesser than Line Two ");
             }
